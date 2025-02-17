@@ -7,7 +7,6 @@ require (
 	github.com/m-lab/go v0.1.66
 	github.com/m-lab/locate v0.4.1
 	github.com/m-lab/ndt-server v0.20.2
-	github.com/m-lab/ndt7-client-go v0.9.0
 	github.com/m-lab/tcp-info v1.5.2
 	github.com/prometheus/client_golang v1.7.1
 	golang.org/x/sys v0.0.0-20200803210538-64077c9b5642
@@ -19,6 +18,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
+	github.com/gocarina/gocsv v0.0.0-20240520201108-78e41c74b4b1 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/gorilla/handlers v1.5.0 // indirect
@@ -37,4 +37,4 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 )
 
-replace github.com/m-lab/ndt7-client-go => github.com/haarikamanda/ndt7-client-go-snl latest
+replace github.com/m-lab/ndt7-client-go => github.com/haarikamanda/ndt7-client-go-snl v0.0.0-20250217031940-0f9b2389795f
