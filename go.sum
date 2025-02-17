@@ -37,7 +37,6 @@ github.com/go-logfmt/logfmt v0.4.0/go.mod h1:3RMwSq7FuexP4Kalkev3ejPJsZTpXXBr9+V
 github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=
 github.com/go-test/deep v1.0.6 h1:UHSEyLZUwX9Qoi99vVwvewiMC8mM2bf7XEM2nqvzEn8=
 github.com/gocarina/gocsv v0.0.0-20200324105150-9eab084b7a45 h1:qvwLAjTsN/G4YvphQxrda+DmbPfpKYg4K3Je9LH6gxQ=
-github.com/gocarina/gocsv v0.0.0-20200324105150-9eab084b7a45/go.mod h1:5YoVOkjYAQumqlV356Hj3xeYh4BdZuLE0/nRkf2NKkI=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
 github.com/golang/mock v1.1.1/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfbm0A=
@@ -58,7 +57,6 @@ github.com/google/go-cmp v0.3.1/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMyw
 github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.1 h1:JFrFEBb2xKufg6XkJsJr+WbKb4FQlURi5RUcBveYu9k=
-github.com/google/go-cmp v0.5.1/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
 github.com/google/uuid v1.1.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/google/uuid v1.1.2 h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=
@@ -92,6 +90,8 @@ github.com/m-lab/locate v0.4.1 h1:GvfR2vW4LJhmdmwKV6pIENdHDVIhT530vF+slY67OAg=
 github.com/m-lab/locate v0.4.1/go.mod h1:Uo4lB9QHCEBMTpFA/VnsXxH8fG/YCOYCyOe4g+Vbj04=
 github.com/m-lab/ndt-server v0.20.2 h1:Fb3xRdfWm0cW5slRS5HpxKfOYhmPqZumaDdME9ZOLxI=
 github.com/m-lab/ndt-server v0.20.2/go.mod h1:ZLVRCEbCBkhh0pwNjnLpwaZnHOHGEH76H/fzIIVFRWw=
+github.com/m-lab/ndt7-client-go v0.9.0 h1:m3n9FMnkjppx698pL3YLYp8aoiFOW7Dn7SlVgNsuszs=
+github.com/m-lab/ndt7-client-go v0.9.0/go.mod h1:8MjMGU/6czaqUebngedB/to8n3kh+Z3HzoJ5n1CMPM4=
 github.com/m-lab/tcp-info v1.5.2 h1:CpYoIKnPtMdBZlBClU+jwEUDN/rQWQVrI5vFChVqIsE=
 github.com/m-lab/tcp-info v1.5.2/go.mod h1:bkvI4qbjB6QVC2tsLSHqf5OnIYcmuLEVjo7+8YA56Kg=
 github.com/m-lab/uuid v0.0.0-20191115203855-549727171666 h1:sG9hIJEQJTrIUN3H599qOKfhwvWi2+/6f4AR9pRrmOI=
@@ -199,7 +199,6 @@ golang.org/x/tools v0.0.0-20190311212946-11955173bddd/go.mod h1:LCzVGOaR6xXOjkQ3
 golang.org/x/tools v0.0.0-20190524140312-2c0ae7006135/go.mod h1:RgjU9mgBXZiqYHBnxXauZ1Gv1EHHAz9KjViQ78xBX0Q=
 golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=
-golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 google.golang.org/appengine v1.1.0/go.mod h1:EbEs0AVv82hx2wNQdGPgUI5lhzA/G0D9YwlJXL52JkM=
 google.golang.org/appengine v1.4.0/go.mod h1:xpcJRLb0r/rnEns0DIKYYv+WjYCduHsrkT7/EB5XEv4=
 google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8/go.mod h1:JiN7NxoALGmiZfu7CAH4rXhgtRTLTxftemlI0sWmxmc=
