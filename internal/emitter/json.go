@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/m-lab/ndt7-client-go/spec"
+	"github.com/haarikamanda/ndt7-client-go-snl/spec"
 )
 
 // jsonEmitter is a jsonEmitter emitter. It emits messages consistent with

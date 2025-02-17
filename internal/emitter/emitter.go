@@ -2,7 +2,7 @@
 package emitter
 
 import (
-	"github.com/m-lab/ndt7-client-go/spec"
+	"github.com/haarikamanda/ndt7-client-go-snl/spec"
 )
 
 // Emitter is a generic emitter. When an event occurs, the

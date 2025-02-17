@@ -20,11 +20,11 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/m-lab/locate/api/locate"
 	v2 "github.com/m-lab/locate/api/v2"
-	"github.com/m-lab/ndt7-client-go/internal/download"
-	"github.com/m-lab/ndt7-client-go/internal/params"
-	"github.com/m-lab/ndt7-client-go/internal/upload"
-	"github.com/m-lab/ndt7-client-go/internal/websocketx"
-	"github.com/m-lab/ndt7-client-go/spec"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/download"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/params"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/upload"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/websocketx"
+	"github.com/haarikamanda/ndt7-client-go-snl/spec"
 )
 
 const (

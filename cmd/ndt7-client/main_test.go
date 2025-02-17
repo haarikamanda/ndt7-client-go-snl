@@ -7,7 +7,7 @@ import (
 
 	"github.com/m-lab/go/testingx"
 	"github.com/m-lab/ndt-server/ndt7/ndt7test"
-	"github.com/m-lab/ndt7-client-go/internal/params"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/params"
 )
 
 func TestNormalUsage(t *testing.T) {

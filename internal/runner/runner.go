@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/m-lab/go/memoryless"
-	"github.com/m-lab/ndt7-client-go"
-	"github.com/m-lab/ndt7-client-go/internal/emitter"
-	"github.com/m-lab/ndt7-client-go/spec"
+	"github.com/haarikamanda/ndt7-client-go-snl"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/emitter"
+	"github.com/haarikamanda/ndt7-client-go-snl/spec"
 )
 
 type RunnerOptions struct {

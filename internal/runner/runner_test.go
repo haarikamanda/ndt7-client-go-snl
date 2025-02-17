@@ -15,11 +15,11 @@ import (
 	"github.com/m-lab/go/testingx"
 	"github.com/m-lab/locate/api/locate"
 	"github.com/m-lab/ndt-server/ndt7/ndt7test"
-	"github.com/m-lab/ndt7-client-go"
-	"github.com/m-lab/ndt7-client-go/internal/emitter"
-	"github.com/m-lab/ndt7-client-go/internal/mocks"
-	"github.com/m-lab/ndt7-client-go/internal/params"
-	"github.com/m-lab/ndt7-client-go/spec"
+	"github.com/haarikamanda/ndt7-client-go-snl"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/emitter"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/mocks"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/params"
+	"github.com/haarikamanda/ndt7-client-go-snl/spec"
 )
 
 var (

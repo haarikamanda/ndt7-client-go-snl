@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/m-lab/ndt7-client-go/internal/params"
-	"github.com/m-lab/ndt7-client-go/internal/websocketx"
-	"github.com/m-lab/ndt7-client-go/spec"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/params"
+	"github.com/haarikamanda/ndt7-client-go-snl/internal/websocketx"
+	"github.com/haarikamanda/ndt7-client-go-snl/spec"
 )
 
 // makePreparedMessage generates a prepared message that should be sent

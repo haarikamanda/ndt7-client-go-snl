@@ -36,3 +36,5 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 )
+
+replace github.com/m-lab/ndt7-client-go => github.com/haarikamanda/ndt7-client-go-snl latest

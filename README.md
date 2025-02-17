@@ -1,15 +1,15 @@
-[![GoDoc](https://godoc.org/github.com/m-lab/ndt7-client-go?status.svg)](https://godoc.org/github.com/m-lab/ndt7-client-go) [![Build Status](https://travis-ci.org/m-lab/ndt7-client-go.svg?branch=master)](https://travis-ci.org/m-lab/ndt7-client-go) [![Coverage Status](https://coveralls.io/repos/github/m-lab/ndt7-client-go/badge.svg?branch=master)](https://coveralls.io/github/m-lab/ndt7-client-go?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/m-lab/ndt7-client-go)](https://goreportcard.com/report/github.com/m-lab/ndt7-client-go)
+[![GoDoc](https://godoc.org/github.com/haarikamanda/ndt7-client-go-snl?status.svg)](https://godoc.org/github.com/haarikamanda/ndt7-client-go-snl) [![Build Status](https://travis-ci.org/haarikamanda/ndt7-client-go-snl.svg?branch=master)](https://travis-ci.org/haarikamanda/ndt7-client-go-snl) [![Coverage Status](https://coveralls.io/repos/github/haarikamanda/ndt7-client-go-snl/badge.svg?branch=master)](https://coveralls.io/github/haarikamanda/ndt7-client-go-snl?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/haarikamanda/ndt7-client-go-snl)](https://goreportcard.com/report/github.com/haarikamanda/ndt7-client-go-snl)
 
 # ndt7 Go client
 
 Reference ndt7 Go client implementation. Useful resources:
 
 - [API exposed by this library](
-    https://godoc.org/github.com/m-lab/ndt7-client-go
+    https://godoc.org/github.com/haarikamanda/ndt7-client-go-snl
 );
 
 - [Manual for the ndt7-client CLI program](
-    https://godoc.org/github.com/m-lab/ndt7-client-go/cmd/ndt7-client
+    https://godoc.org/github.com/haarikamanda/ndt7-client-go-snl/cmd/ndt7-client
 );
 
 - [ndt7 protocol specification](
@@ -30,7 +30,7 @@ export GO111MODULE=on
 Clone the repository wherever you want with
 
 ```bash
-git clone https://github.com/m-lab/ndt7-client-go
+git clone https://github.com/haarikamanda/ndt7-client-go-snl
 ```
 
 From inside the repository, use `go get ./cmd/ndt7-client` to
@@ -40,7 +40,7 @@ build the client. Binaries will be placed in `$GOPATH/bin`, if
 If you're into a one-off install, this
 
 ```bash
-go install -v github.com/m-lab/ndt7-client-go/cmd/ndt7-client@latest
+go install -v github.com/haarikamanda/ndt7-client-go-snl/cmd/ndt7-client@latest
 ```
 
 is equivalent to cloning the repository, running `go get ./cmd/ndt7-client`,
@@ -70,7 +70,7 @@ non-interactive periodic test runner `ndt7-prometheus-exporter`.
 #### Build and Run using Docker
 
 ```bash
-git clone https://github.com/m-lab/ndt7-client-go
+git clone https://github.com/haarikamanda/ndt7-client-go-snl
 docker build -t ndt7-prometheus-exporter .
 ```
 
