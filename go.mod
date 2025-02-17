@@ -1,4 +1,4 @@
-module github.com/m-lab/ndt7-client-go
+module github.com/haarikamanda/ndt7-client-go-snl
 
 go 1.20
 
