@@ -139,6 +139,8 @@ var (
 	flagService  = flagx.URL{}
 	flagUpload   = flag.Bool("upload", true, "perform upload measurement")
 	flagDownload = flag.Bool("download", true, "perform download measurement")
+	flagLibraryName = flag.String("library-name", "ndt7-client-go", "name of the client library")
+
 )
 
 func init() {
@@ -175,6 +177,7 @@ func main() {
 	flag.Parse()
 	rtx.Must(flagx.ArgsFromEnvWithLog(flag.CommandLine, false), "failed to parse flags")
 
+	ClientName = *flagLibraryName
 	if *flagProfile != "" {
 		log.Printf("warning: using -profile will reduce the performance")
 		fp, err := os.Create(*flagProfile)
